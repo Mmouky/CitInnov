@@ -23,8 +23,10 @@
 <div id="page">
 
     <!-- Header -->
-    <header id="header" class="alt" style="display: inline-table; background: linear-gradient(to right, #257f3f,#62a243);">
-        <h1 style="display: table-cell; vertical-align: middle; color: white;"><a href="{{route("home")}}">Cit'Innov</h1>
+    <header id="header" class="alt"
+            style="display: inline-table; background: linear-gradient(to right, #257f3f,#62a243);">
+        <h1 style="display: table-cell; vertical-align: middle; color: white;"><a href="{{route("home")}}">Cit'Innov
+        </h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
@@ -61,9 +63,8 @@
                         <div class="animate-box fadeInUp animated-fast">
                             <h2>Conférence Cit'Innov</h2>
                             <p>18 Janvier 2022 de 10h à 12h</p>
-                            <p><a target="_blank"
-                                  href="https://www.helloasso.com/associations/cit-innov/evenements/conference-cit-innov"
-                                  class="btn btn-primary btn-lg btn-custom">Réserver</a></p>
+                            <p><a href="{{route("home").'#reserver'}}" class="btn btn-primary btn-lg btn-custom">Réserver</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -223,7 +224,9 @@
 </div>
 <div id="reserver" class="container">
     <h2 class="text-center" style="font-size: 40px;">Réserver</h2>
-    <iframe allowtransparency="true" scrolling="auto" src="https://www.helloasso.com/associations/cit-innov/evenements/conference-cit-innov/widget" style="width: 100%; height: 750px; border: none;" onload="window.scroll(0, this.offsetTop)"></iframe>
+    <iframe allowtransparency="true" scrolling="auto"
+            src="https://www.helloasso.com/associations/cit-innov/evenements/conference-cit-innov/widget"
+            style="width: 100%; height: 750px; border: none;" onload="window.scroll(0, this.offsetTop)"></iframe>
 </div>
 <footer id="colorlib-footer">
     <div class="container">
