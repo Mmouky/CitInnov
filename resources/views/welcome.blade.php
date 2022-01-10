@@ -26,7 +26,8 @@
     <!-- Header -->
     <header id="header" class="alt"
             style="display: inline-table; background: linear-gradient(to right, #257f3f,#62a243);">
-        <h1 style="display: table-cell; vertical-align: middle; color: white;"><a href="{{route("home")}}">Cit'Innov </a>
+        <h1 style="display: table-cell; vertical-align: middle; color: white;"><a
+                href="{{route("home")}}">Cit'Innov </a>
         </h1>
         <nav>
             <a href="#menu">Menu</a>
@@ -162,8 +163,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-5 col-md-push-7 animate-box fadeInUp animated-fast">
-                </div>
             </div>
         </div>
     </div>
@@ -177,7 +176,20 @@
                     <h2>Nos sponsors</h2>
                 </div>
                 <div class="row animate-box fadeInUp animated-fast">
-
+                    <div class="col-md-6 text-center services">
+                        <a target="_blank" href="https://agcopy.info/">
+                        <span class="icon">
+                            <img src="{{asset('images/agcopy.png')}}" style=" padding-top: 80px;width: 300px;">
+                        </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 text-center services">
+                        <a target="_blank" href="https://agcopy.info/">
+                        <span class="icon">
+                            <img src="{{asset('images/ezpng.png')}}" style="width: 300px">
+                        </span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
