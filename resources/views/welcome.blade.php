@@ -26,7 +26,7 @@
     <!-- Header -->
     <header id="header" class="alt"
             style="display: inline-table; background: linear-gradient(to right, #257f3f,#62a243);">
-        <h1 style="display: table-cell; vertical-align: middle; color: white;"><a href="{{route("home")}}">Cit'Innov
+        <h1 style="display: table-cell; vertical-align: middle; color: white;"><a href="{{route("home")}}">Cit'Innov </a>
         </h1>
         <nav>
             <a href="#menu">Menu</a>
@@ -187,7 +187,7 @@
     <h2 class="text-center" style="font-size: 40px;">Nous rejoindre</h2>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 text-center animate-box fadeInUp animated-fast">
+            <div class="col-md-4 text-center animate-box fadeInUp animated-fast">
                 <div class="services">
                     <a target="_blank" href="https://bit.ly/3yx2Imp">
                         <span class="icon">
@@ -199,7 +199,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 text-center animate-box fadeInUp animated-fast">
+            <div class="col-md-4 text-center animate-box fadeInUp animated-fast">
                 <div class="services">
                     <a target="_blank" href="https://bit.ly/3sd5mg6">
                         <span class="icon">
@@ -211,7 +211,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 text-center animate-box fadeInUp animated-fast">
+            <div class="col-md-4 text-center animate-box fadeInUp animated-fast">
                 <div class="services">
                     <a target="_blank" href="https://bit.ly/3q1jAOz">
                         <span class="icon">
@@ -223,7 +223,9 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 text-center animate-box fadeInUp animated-fast">
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-center animate-box fadeInUp animated-fast">
                 <div class="services">
                     <a target="_blank" href="https://www.twitch.tv/citinnov">
                         <span class="icon">
@@ -231,6 +233,18 @@
                         </span>
                         <div class="desc">
                             <h3>Twitch</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center animate-box fadeInUp animated-fast">
+                <div class="services">
+                    <a target="_blank" href="https://www.instagram.com/cit_innov/">
+                        <span class="icon">
+                            <img src="{{asset('images/insta.png')}}" style="height: 100px;">
+                        </span>
+                        <div class="desc">
+                            <h3>Instagram</h3>
                         </div>
                     </a>
                 </div>
