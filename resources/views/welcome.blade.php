@@ -184,7 +184,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 text-center services">
-                        <a target="_blank" href="https://agcopy.info/">
+                        <a target="_blank" href="https://www.easy4web.fr/">
                         <span class="icon">
                             <img src="{{asset('images/ezpng.png')}}" style="width: 300px">
                         </span>
