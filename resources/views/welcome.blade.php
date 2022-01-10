@@ -6,9 +6,10 @@
 -->
 <html>
 <head>
-    <title>Solid State by HTML5 UP</title>
+    <title>Cit'Innov</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/x-icon" href="{{asset("images/favico.png")}}">
     <link rel="stylesheet" href="{{asset("css/bootstrap.min.css")}}"/>
     <link rel="stylesheet" href="{{asset("css/main.css")}}"/>
     <link rel="stylesheet" href="{{asset("css/fontawesome-all.min.css")}}"/>
@@ -63,6 +64,9 @@
                         <div class="animate-box fadeInUp animated-fast">
                             <h2>Conférence Cit'Innov</h2>
                             <p>18 Janvier 2022 de 10h à 12h</p>
+                            <p>Amphithéâtre C1
+                                <br>Boulevard de l’Université
+                                Saint-Nazaire</p>
                             <p><a href="{{route("home").'#reserver'}}" class="btn btn-primary btn-lg btn-custom">Réserver</a>
                             </p>
                         </div>
@@ -236,23 +240,25 @@
                 <p>
                 </p>
                 <ul class="colorlib-footer-links">
-                    <li><a href="#"><i class="icon-check"></i> Home</a></li>
-                    <li><a href="#"><i class="icon-check"></i> Gallery</a></li>
-                    <li><a href="#"><i class="icon-check"></i> About</a></li>
-                    <li><a href="#"><i class="icon-check"></i> Blog</a></li>
-                    <li><a href="#"><i class="icon-check"></i> Contact</a></li>
-                    <li><a href="#"><i class="icon-check"></i> Privacy</a></li>
+                    <li><a href="{{route("home")}}">Accueil</a></li>
+                    <li><a href="{{route("home").'#presentation'}}">Présentation</a></li>
+                    <li><a href="{{route("home").'#programme'}}">Le programme</a></li>
+                    <li><a href="{{route("home").'#sponsors'}}">Nos sponsors</a></li>
+                    <li><a href="{{route("home").'#rejoindre'}}">Nous rejoindre</a></li>
+                    <li><a href="{{route("home").'#reserver'}}">Réserver</a></li>
                 </ul>
                 <p></p>
             </div>
             <div class="col-md-6 colorlib-widget">
                 <h4>Nous contacter</h4>
                 <ul class="colorlib-footer-links">
-                    <li>291 South 21th Street, <br> Suite 721 New York NY 10016</li>
-                    <li><a href="tel://1234567920"><i class="icon-phone"></i> + 1235 2355 98</a></li>
-                    <li><a href="mailto:info@yoursite.com"><i class="icon-envelope"></i> info@yoursite.com</a>
+                    <li>Amphithéâtre C 1,
+                        <br>Boulevard de l’Université
+                        Saint-Nazaire
                     </li>
-                    <li><a href="#"><i class="icon-location4"></i> yourwebsite.com</a></li>
+                    <li><a href="mailto:contact.citinnov@gmail.com"><i class="icon-envelope"></i>contact.citinnov@gmail.com</a>
+                    </li>
+                    <li><a href="https://www.cit-innov.fr"><i class="icon-location4"></i> www.cit-innov.fr</a></li>
                 </ul>
             </div>
         </div>
