@@ -187,7 +187,7 @@
     <h2 class="text-center" style="font-size: 40px;">Nous rejoindre</h2>
     <div class="container">
         <div class="row">
-            <div class="col-md-4 text-center animate-box fadeInUp animated-fast">
+            <div class="col-md-3 text-center animate-box fadeInUp animated-fast">
                 <div class="services">
                     <a target="_blank" href="https://bit.ly/3yx2Imp">
                         <span class="icon">
@@ -199,7 +199,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 text-center animate-box fadeInUp animated-fast">
+            <div class="col-md-3 text-center animate-box fadeInUp animated-fast">
                 <div class="services">
                     <a target="_blank" href="https://bit.ly/3sd5mg6">
                         <span class="icon">
@@ -211,7 +211,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 text-center animate-box fadeInUp animated-fast">
+            <div class="col-md-3 text-center animate-box fadeInUp animated-fast">
                 <div class="services">
                     <a target="_blank" href="https://bit.ly/3q1jAOz">
                         <span class="icon">
@@ -219,6 +219,18 @@
                         </span>
                         <div class="desc">
                             <h3>Linkedin</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 text-center animate-box fadeInUp animated-fast">
+                <div class="services">
+                    <a target="_blank" href="https://www.twitch.tv/citinnov">
+                        <span class="icon">
+                            <img src="{{asset('images/twitch.png')}}" style="height: 100px;">
+                        </span>
+                        <div class="desc">
+                            <h3>Twitch</h3>
                         </div>
                     </a>
                 </div>
