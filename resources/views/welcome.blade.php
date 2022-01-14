@@ -114,6 +114,18 @@
                     </div>
                 </div>
             </div>
+
+            <div>
+                <video controls>
+
+                    <source src="{{asset("images/teaser.mp4")}}"
+                            type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+
+            </div>
+
+
             <div class="row mobile-wrap" id="programme">
                 <div class="col-md-7 col-md-pull-5 animate-box fadeInUp animated-fast">
                     <div class="desc">
@@ -168,7 +180,8 @@
     </div>
     <div id="sponsors">
         <div id="colorlib-subscribe" class="colorlib-subscribe"
-             style="background: linear-gradient(to right, #257f3f,#62a243);" data-stellar-background-ratio="0.5">
+             style="background: linear-gradient(to right, #257f3f,#62a243);"
+             data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                 <div
@@ -268,7 +281,8 @@
     <h2 class="text-center" style="font-size: 40px;">Réserver</h2>
     <iframe allowtransparency="true" scrolling="auto"
             src="https://www.helloasso.com/associations/cit-innov/evenements/conference-cit-innov/widget"
-            style="width: 100%; height: 750px; border: none;" onload="window.scroll(0, this.offsetTop)"></iframe>
+            style="width: 100%; height: 750px; border: none;"
+            onload="window.scroll(0, this.offsetTop)"></iframe>
 </div>
 <footer id="colorlib-footer">
     <div class="container">
@@ -296,7 +310,8 @@
                     </li>
                     <li><a href="mailto:contact.citinnov@gmail.com"><i class="icon-envelope"></i>contact.citinnov@gmail.com</a>
                     </li>
-                    <li><a href="https://www.cit-innov.fr"><i class="icon-location4"></i> www.cit-innov.fr</a></li>
+                    <li><a href="https://www.cit-innov.fr"><i class="icon-location4"></i> www.cit-innov.fr</a>
+                    </li>
                 </ul>
             </div>
         </div>
